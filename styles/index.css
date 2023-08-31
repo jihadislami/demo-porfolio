@@ -3,7 +3,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 75px;
 }
+
 /* h1 styles */
 h1 {
     
@@ -28,4 +30,17 @@ nav li {
     font-weight: 800;
     color: white;
     font-size: larger;
+}
+/* Header related styles */
+.header{
+    background-color: bisque;
+}
+/* banner styles */
+.banner{
+    pad: 30px 40px 30px 100px;
+    align-items: center;
+    display: flex;
+}
+.banner-inside{
+    padding: 0px 0px 0px 30px;
 }

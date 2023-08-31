@@ -1,4 +1,31 @@
 /* nav related styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* h1 styles */
+h1 {
+    
+    font-weight: bolder;
+}
+/* name span style */
+.islam{
+    color: orange;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    color: gray;
+}
+/* nav button style */
+.nav-button{
+    background: orange;
+    padding: 18px 35px;
+    border: 0px;
+    border-radius: 7px;
+    font-weight: 800;
+    color: white;
+    font-size: larger;
 }

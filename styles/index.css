@@ -34,13 +34,41 @@ nav li {
 /* Header related styles */
 .header{
     background-color: bisque;
+    background-image: url('../webdeveloper-portfolio/images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
 }
 /* banner styles */
 .banner{
-    pad: 30px 40px 30px 100px;
+    padding: 30px 40px 0px 100px;
     align-items: center;
     display: flex;
 }
-.banner-inside{
-    padding: 0px 0px 0px 30px;
+/* main section styles */
+/* About section styles */
+.about{
+    border-radius: 10px;
+    padding: 130px;
+    background-color: #FFF8F3;
+    margin:130px ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+.section-title{
+   text-align: center;
+   font-size: 50px;
+   font-family: monospace;
+}
+.section-description{
+  text-align: center;
+  color: #443f3c;
+  font-size: 18px;
+  font-family: sans-serif;
 }
